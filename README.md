@@ -1,8 +1,13 @@
-# Basic HTML Website
+# Personal Portfolio 🗄️
 
-This is my submission for a basic HTML website project using HTML and some CSS.
+This is my submission for the basic HTML website project and personal portfolio project using HTML and CSS.
 
-Read more about the project at:
-https://roadmap.sh/projects/basic-html-website
+## Read more about the projects at:
 
-<img src="images\screenshot.png">
+[Roadmaps.sh - Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+
+[Roadmaps.sh - Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+
+### Screenshots
+<img src="images\screenshot1.png">
+<img src="images\screenshot2.png">

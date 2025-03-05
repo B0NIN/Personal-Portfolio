@@ -1,28 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Basic HTML Website</title>
     <!--Stylesheet-->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/e7d5db59aa.js" crossorigin="anonymous"></script>
     <!--Meta tags-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Basic HTML website">
     <meta name="author" content="Katie Nicol">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta-property="og:title" content="Basic HTML Website">
         <meta-property="og:description" content="Basic HTML website for Katie Nicol">
             <meta-property="og:url" content="https://b0nin.github.io/basic-html-website/">
-                <meta charset="utf-8">
                 <!--Favicon-->
                 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 
 <body>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#connect">Connect</a></li>
+            <ul>
+    </nav>
+
+    <section id="welcome-section">
+        <h1>Kia Ora<span class="flash">_</span></h1>
+        <h2><span class="maori-english"></span></h2>
+    </section>
+
+    <div>
+        <section id="projects">
+            <h1>Personal Projects<span class="flash">_</span></h1>
+            <h4>These are some of my personal projects completed in association with freeCodeCamp and Roadmaps.sh.</h4>
+            <div class="portfolio">
+
+                <div class="project-tile">
+                    <div class="project-image-wrapper">
+                        <img class="project-logo" src="https://files.catbox.moe/1hh0tf.png">
+                        <a href="#" class="hover-link">GitHub</a>
+                    </div>
+                    <h2>Finance App 💴</h2>
+                    <h3><a href="https://bank-of-imoni.glide.page/" target="_blank">Bank of Imoni</a></h3>
+                    <p>Expense splitter, transaction manager, budget tracker.</p>
+                </div>
+
+                <div class="project-tile">
+                    <div class="project-image-wrapper">
+                        <img class="project-logo" src="https://files.catbox.moe/35h8qt.png">
+                        <a href="#" class="hover-link">GitHub</a>
+                    </div>
+                    <h2>Tribute Page 🐈</h2>
+                    <h3><a href="#" target="_blank">Story of Imoni</a></h3>
+                    <p>A tribute page for the best boy there ever was.</p>
+                </div>
+
+                <div class="project-tile">
+                    <div class="project-image-wrapper">
+                        <img class="project-logo" src="images\resume screenshot.png">
+                        <a href="https://github.com/B0NIN/Single-Page-CV" class="hover-link">Github</a>
+                    </div>
+                    <h2>Resume 👩🏽‍🏫</h2>
+                    <h3><a href="https://b0nin.github.io/Single-Page-CV/" target="_blank">HTML CV</a></h3>
+                    <p>My personal teaching resume readily available to share.</p>
+                </div>
+
+                <div class="project-tile">
+                    <div class="project-image-wrapper">
+                        <img class="project-logo" src="https://files.catbox.moe/7iehut.png">
+                        <a href="#" class="hover-link">GitHub</a>
+                    </div>
+                    <h2>Survey 📝</h2>
+                    <h3><a href="#" target="_blank">Food Survey</a></h3>
+                    <p>A survey about the best Japanese food.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer id="connect">
+        <h1>Connect with me<span class="flash">_</span></h1>
+        <p>Feel free to connect with me on any of the following platforms:</p>
+        <div class="social-icons">
+            <a id="profile-link" href="https://www.linkedin.com/in/katie-nicol" target="_blank">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogospng.org%2Fdownload%2Flinkedin%2Flogo-linkedin-icon-1536.png&f=1&nofb=1&ipt=311d6f0356ae4a3450b11af5c9760607faf12a5fa1d9697086584106302e8363&ipo=images"
+                    alt="LinkedIn" class="social-logo"> LinkedIn
+            </a>
+            <a id="profile-link" href="https://github.com/B0NIN" target="_blank">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub"
+                    class="social-logo"> GitHub
+            </a>
+            <a id="profile-link" href="https://www.freecodecamp.org/b0nin" target="_blank">
+                <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg"
+                    alt="freeCodeCamp" class="social-logo"> freeCodeCamp
+            </a>
+        </div>
+    </footer>
 
 </body>
 
