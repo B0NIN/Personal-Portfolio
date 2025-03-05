@@ -1,0 +1,41 @@
+:root {
+  --main: #181724;
+  --highlight: #c6b8ea;
+  --sub: #686bd4;
+}
+
+@keyframes flash {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  animation: flash 2s infinite;
+}
+
+#name::before {
+  content: "Ko Katie toku ingoa";
+}
+
+#name:hover::before {
+  content: "My name is Katie";
+  background-color: var(--highlight);
+  color: var(--main);
+}
+
+#name {
+  color: var(--highlight);
+}
+
+html,
+body {
+  font-family: Quantico, Arial, sans-serif;
+  color: var(--main);
+  overflow-x: hidden;
+}
