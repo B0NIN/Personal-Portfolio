@@ -7,7 +7,3 @@ This is my submission for the basic HTML website project and personal portfolio 
 [Roadmaps.sh - Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
 
 [Roadmaps.sh - Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
-
-### Screenshots
-<img src="images\screenshot1.png">
-<img src="images\screenshot2.png">
