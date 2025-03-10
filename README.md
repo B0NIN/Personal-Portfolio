@@ -1,9 +1,11 @@
-# Personal Portfolio 🗄️
+# Personal Portfolio 👩🏽‍💻
 
-This is my submission for the basic HTML website project and personal portfolio project using HTML and CSS.
+#### This will act as the go to webpage for all of my projects and work/personal information.
 
-## Read more about the projects at:
+## Future Goals
 
-[Roadmaps.sh - Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
+#### I plan to:
 
-[Roadmaps.sh - Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+- Expand my portfolio with more projects
+- Add relevant links to public profiles and social media
+- Share an outline of my learning journey
